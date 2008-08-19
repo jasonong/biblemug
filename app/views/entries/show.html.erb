@@ -1,0 +1,9 @@
+
+<h2><%= @entry.title %></h2>
+
+<p>
+<%= textilize @entry.body %>
+</p>
+
+<%= link_to 'Edit', edit_entry_path(@entry) %> |
+<%= link_to 'Back', entries_path %>

@@ -1,0 +1,16 @@
+
+<h1>Search Entries</h1>
+
+<% form_tag filter_entries_path do %>
+
+<p>
+    <label>Keywords:</label>
+    <%= text_field 'keywords', '' %>
+    <%= submit_tag 'Search' %>
+</p>
+
+<% end %>
+
+<div id='search-results'></div>
+
+<%= link_to 'Back To List', entries_path %>

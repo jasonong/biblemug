@@ -1,0 +1,18 @@
+
+<table>
+  <tr>
+    <th>Title<th>
+    <th><th>
+    <th></th>
+  </tr>
+
+<% for entry in @entries %>
+  <tr>
+  <td><%= link_to entry.title, entry %></td>
+    <td><%= link_to 'Edit', edit_entry_path(entry) %></td>
+    <td><%= link_to 'Destroy', entry, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+

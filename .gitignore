@@ -1,0 +1,5 @@
+log/*.log
+tmp/**/*
+doc/**/*
+vendor/rails/**/*
+vendor/gems/**/*
