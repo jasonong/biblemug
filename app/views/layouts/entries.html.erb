@@ -10,9 +10,15 @@
 </head>
 <body>
 
+<div id='left'></div>
+
+<div id='content'>
 <p style="color: green"><%= flash[:notice] %></p>
 
 <%= yield  %>
+</div>
+
+<div id='right'></div>
 
 </body>
 </html>

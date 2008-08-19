@@ -1,20 +1,42 @@
-body { background-color: #fff; color: #333; }
-
-body, p, ol, ul, td {
-  font-family: verdana, arial, helvetica, sans-serif;
-  font-size:   13px;
-  line-height: 18px;
+html {
+padding:0px;
+margin:0px;
+}
+body {
+  background-color: #e1ddd9;
+  font-size: 12px;
+  font-family: Verdana, Arial, SunSans-Regular, Sans-Serif;
+color:#564b47;
+padding:0px;
+margin:0px;
+}
+#content {
+margin: 0px 190px 0px 190px;
+        border-left: 2px solid #564b47;
+        border-right: 2px solid #564b47;
+padding: 0px;
+         background-color: #ffffff;
 }
 
-pre {
-  background-color: #eee;
-  padding: 10px;
-  font-size: 11px;
+#left {
+position: absolute;
+left: 0px;
+width: 190px;
+color: #564b47;
+margin: 0px;
+padding: 0px;
+}
+padding: 0px;
 }
 
-a { color: #000; }
-a:visited { color: #666; }
-a:hover { color: #fff; background-color:#000; }
+#right {
+position: absolute;
+right: 0px;
+width: 190px;
+color: #564b47;
+margin: 0px;
+padding: 0px;
+}
 
 .fieldWithErrors {
   padding: 2px;
