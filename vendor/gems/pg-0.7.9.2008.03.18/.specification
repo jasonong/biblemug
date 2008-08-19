@@ -1,0 +1,67 @@
+--- !ruby/object:Gem::Specification 
+name: pg
+version: !ruby/object:Gem::Version 
+  version: 0.7.9.2008.03.18
+platform: ruby
+authors: 
+- Yukihiro Matsumoto
+- Eiji Matsumoto
+- Noboru Saitou
+- Dave Lee
+- Jeff Davis
+autorequire: 
+bindir: bin
+cert_chain: 
+date: 2008-03-18 00:00:00 +08:00
+default_executable: 
+dependencies: []
+
+description: 
+email: ruby-pg@j-davis.com
+executables: []
+
+extensions: 
+- ext/extconf.rb
+extra_rdoc_files: 
+- ext/pg.c
+files: 
+- README
+- LICENSE
+- COPYING.txt
+- Contributors
+- GPL
+- BSD
+- ext/compat.c
+- ext/compat.h
+- ext/pg.h
+- ext/pg.c
+- ext/extconf.rb
+has_rdoc: true
+homepage: http://rubyforge.org/projects/ruby-pg
+post_install_message: 
+rdoc_options: []
+
+require_paths: 
+- bin
+- lib
+required_ruby_version: !ruby/object:Gem::Requirement 
+  requirements: 
+  - - ">"
+    - !ruby/object:Gem::Version 
+      version: 0.0.0
+  version: 
+required_rubygems_version: !ruby/object:Gem::Requirement 
+  requirements: 
+  - - ">="
+    - !ruby/object:Gem::Version 
+      version: "0"
+  version: 
+requirements: 
+- PostgreSQL libpq library and headers
+rubyforge_project: ruby-pg
+rubygems_version: 1.2.0
+signing_key: 
+specification_version: 1
+summary: Ruby extension library providing an API to PostgreSQL
+test_files: []
+
